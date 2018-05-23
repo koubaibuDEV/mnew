@@ -1,0 +1,78 @@
+ ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, div.paragraph, blockquote, fieldset, input { margin: 0; padding: 0; }
+ ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, fieldset, input { margin: 0; padding: 0; }
+ a img { border: 0; }
+ a { text-decoration: none; }
+ html { height: 100%; }
+ body { font-family: 'Open sans', sans-serif; font-size: 15px; color: #8e8e8e; min-height: 100%; background-color: #f9f9f9; }
+ .splash-page { background-color: #ffffff; }
+ .bg-wrapper { background-color: #ffffff; }
+ h2 { font-family: 'Alice', sans-serif; font-size: 26px; font-weight: normal; color: #484848; padding: .3em 0; }
+ div.paragraph, div.paragraph { padding: .5em 0; }
+ p, div.paragraph { padding: .5em 0; }
+ hr.styled-hr { background-color: #d0d0d0; }
+ #wrapper blockquote { border-left: 5px solid #d0d0d0; margin-left: 20px; padding-left: 20px; }
+ #header { text-align: center; padding-top: 52px; padding-bottom: 25px; }
+ #sitename a, #sitename a:link, #sitename a:visited { color: #484848; font-family: 'Raleway', sans-serif; font-size: 36px; text-transform: uppercase; background: url('theme/teal_icons.png?1473193688') -9999px -9999px no-repeat; }
+ a:link, a:visited { color: #5199a8; }
+ a:hover { color: #8dc7d3; }
+ #content-wrapper { width: 960px; margin: auto; }
+ .wsite-form-container { margin-top: 0 !important; }
+ .paragraph ul, .paragraph ol { padding-left: 3em !important; }
+ .bg-wrapper { padding-bottom: 100px; }
+ #footer { font-family: 'Open sans', sans-serif; font-size: 14px; padding-top: 45px; padding-bottom: 45px; }
+ #footer-content { margin: auto; }
+ #footer h2 { font-family: 'Raleway', sans-serif; font-size: 18px; text-transform: uppercase; }
+ #navigation { padding-bottom: 40px; margin: auto; text-align: center; text-transform: uppercase; overflow: hidden; font-family: 'Raleway', sans-serif; font-size: 13px; }
+ #navigation ul:before, #navigation ul:after { background-color: #d0d0d0; content: ""; display: inline-block; height: 1px; bottom: .1em; position: relative; vertical-align: middle; width: 50%; }
+ #navigation ul:before { right: 29px; margin-left: -50%; }
+ #navigation ul:after { left: 29px; margin-right: -50%; }
+ #navigation li { display: inline-block; }
+ #navigation li:hover, #navigation li#active { background-color: #f6f6f6; color: #484848; }
+ #navigation a:link, #navigation a:visited { display: block; color: inherit; padding: 10px 14px; }
+ #navigation a:hover { }
+ #wsite-menus .wsite-menu li a { background-color: #f6f6f6; border: none; color: #484848; }
+ #wsite-menus .wsite-menu li a:hover { background-color: #e8e8e8; color: #484848; }
+ .wsite-button, .wsite-button .wsite-button-inner { color: white; background-image: none !important; background-color: #5199a8; }
+ .wsite-button .wsite-button-inner { background-color: inherit; }
+ .wsite-button-highlight { background-color: #5199a8; }
+ .wsite-button-highlight:hover { background-color: #5cb0c2; }
+ .wsite-button-highlight:active { background-color: #44818e; }
+ .wsite-button-normal { background-color: #484848; }
+ .wsite-button-normal:hover { background-color: #616161; }
+ .wsite-button-normal:active { background-color: #303030; }
+ .galleryCaptionHover .galleryCaptionHolder { height: 100%; opacity: 0; -webkit-transition: opacity 0.2s ease-in-out; -moz-transition: opacity 0.2s ease-in-out; -o-transition: opacity 0.2s ease-in-out; transition: opacity 0.2s ease-in-out; -webkit-backface-visibility: hidden; }
+ .partialImageGalleryCaption.galleryCaptionHolder { height: auto; }
+ .galleryCaptionHover.galleryImageHolder:hover .galleryCaptionHolder { opacity: 1; }
+ .galleryCaptionHolderInner { display: table; height: 100%; }
+ .galleryCaptionInnerTextHolder { display: table-cell; vertical-align: middle; }
+ #content-wrapper #content .galleryImageBorder { border-color: #d0d0d0; }
+ #content-wrapper #content .wsite-image-border-hairline a img, #content-wrapper #content .wsite-image-border-thin a img, #content-wrapper #content .wsite-image-border-medium a img, #content-wrapper #content .wsite-image-border-thick a img { border-color: #d0d0d0; }
+ .banner-wrap { text-align: center; background-repeat: no-repeat; background-size: cover; background-position: center center; width: 100%; }
+ #banner { width: 550px; height: 100%; margin: auto; display: table; }
+ #banner-container { display: table-cell; vertical-align: middle; }
+ .banner-wrap a { color: #8dc7d3; }
+ .banner-wrap a:hover { text-decoration: underline; }
+ .banner-wrap .button-wrap div { text-align: center !important; }
+ .banner-wrap .wsite-button-inner { font-family: 'Open sans', sans-serif; text-transform: uppercase; font-size: 15px; }
+ #banner h2 { font-size: 55px; color: white; font-weight: bold; }
+ #banner div.paragraph { font-size: 20px; padding-top: 36px; padding-bottom: 45px; color: white; }
+ #banner p { font-size: 20px; padding-top: 36px; padding-bottom: 45px; color: white; }
+ .landing-page .banner-wrap { height: 482px; margin-bottom: 20px; }
+ .splash-page, .filler { height: 100%; }
+ .splash-page #banner { height: 794px; }
+ .splash-page #wrapper { height: 100%; width: 100%; border-spacing: 0; }
+ .splash-page #wrapper td { padding: 0; }
+ .spacer { height: 194px; }
+ .tall-header .banner-wrap { height: 403px; margin-bottom: 20px; }
+ .short-header .banner-wrap { height: 302px; margin-bottom: 20px; }
+ .wsite-product { border: 1px solid #d0d0d0; border-radius: 2px; background: inherit; box-shadow: none; }
+ .wsite-product .wsite-product-title { font-family: 'Alice', sans-serif; color: white; font-size: 26px; }
+ .wsite-product-image { border: 1px solid #d0d0d0; border-radius: 0; }
+ .wsite-input, .wsite-form-input, select { border: solid 1px #d0d0d0; border-radius: 2px; margin: 8px 0; outline: none; background-image: none; height: 27px; font-size: 13px; }
+ .wsite-form-phone-separator { margin: 8px 0; }
+ .wsite-form-label { font-weight: normal; }
+
+div.paragraph ul, div.paragraph ol { padding-left: 3em !important; margin: 5px 0 !important; overflow:hidden; }
+div.paragraph li { padding-left: 5px !important; margin: 3px 0 0 !important; }
+div.paragraph ul, div.paragraph ul li { list-style: disc outside !important; }
+div.paragraph ol, div.paragraph ol li { list-style: decimal outside !important; }
